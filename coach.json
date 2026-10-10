@@ -1,0 +1,107 @@
+{"v":1,
+"note":"Practice-chat topics for the Coach tab. Written by Claude for Vazhedan. band A = A1-A2, B = B1-B2, C = C1-C2. q = [English question, Persian, sample answer]. w = hint words (only those in the built-in dictionary are shown).",
+"react":[["Nice!","عالی!"],["Great answer!","جواب خوبی بود!"],["Interesting!","جالب است!"],["I see.","که این‌طور."],["Good point!","نکته‌ی خوبی بود!"],["Thanks for sharing!","ممنون که گفتی!"],["That sounds great!","چه خوب!"],["Really? Tell me more next time.","واقعاً؟ دفعه‌ی بعد بیشتر بگو."]],
+"talk":[
+{"id":"me","band":"A","t":"من و خانواده‌ام","te":"Me and my family","w":["family","brother","sister","parents","married","friend","funny","tall"],"q":[
+["What's your name, and where are you from?","اسمت چیست و اهل کجایی؟","My name is Sara, and I'm from Tabriz."],
+["How many people are there in your family?","خانواده‌تان چند نفرند؟","There are four people in my family: my parents, my brother and me."],
+["What does your father or mother do?","پدر یا مادرت چه کاره است؟","My mother is a teacher, and my father works in a bank."],
+["Do you have any brothers or sisters?","خواهر یا برادر داری؟","Yes, I have one sister. She is older than me."],
+["Who is your best friend? Describe him or her.","بهترین دوستت کیست؟ او را توصیف کن.","My best friend is Reza. He is tall and very funny."]]},
+{"id":"day","band":"A","t":"یک روز معمولی","te":"A normal day","w":["usually","breakfast","early","tired","evening","bus","cook","sleep"],"q":[
+["What time do you usually get up?","معمولاً ساعت چند بیدار می‌شوی؟","I usually get up at seven o'clock."],
+["What do you eat for breakfast?","صبحانه چه می‌خوری؟","I usually eat bread, cheese and tea for breakfast."],
+["How do you go to work or school?","چطور سر کار یا مدرسه می‌روی؟","I go to work by bus. It takes thirty minutes."],
+["What do you do in the evening?","عصرها چه کار می‌کنی؟","In the evening, I cook dinner and watch TV."],
+["What time do you go to bed?","ساعت چند می‌خوابی؟","I go to bed at eleven because I get up early."]]},
+{"id":"food","band":"A","t":"غذا","te":"Food","w":["favorite","delicious","rice","vegetable","restaurant","sweet","hungry","chicken"],"q":[
+["What is your favorite food?","غذای موردعلاقه‌ات چیست؟","My favorite food is kebab with rice."],
+["Can you cook? What can you cook?","آشپزی بلدی؟ چه چیزی می‌توانی بپزی؟","Yes, I can cook. I can make pasta and soup."],
+["Do you like sweet things?","چیزهای شیرین دوست داری؟","Yes, I love chocolate and cake."],
+["How often do you eat at a restaurant?","هر چند وقت یک بار رستوران می‌روی؟","I eat at a restaurant once a month."],
+["What did you eat yesterday?","دیروز چه خوردی؟","Yesterday I ate chicken soup and salad."]]},
+{"id":"home","band":"A","t":"خانه و شهر من","te":"My home and city","w":["apartment","kitchen","bedroom","near","quiet","park","city","street"],"q":[
+["Do you live in a house or an apartment?","در خانه‌ی ویلایی زندگی می‌کنی یا آپارتمان؟","I live in a small apartment."],
+["How many rooms are there in your home?","خانه‌تان چند اتاق دارد؟","There are three rooms and a big kitchen."],
+["What is your favorite room? Why?","اتاق موردعلاقه‌ات کدام است؟ چرا؟","My favorite room is my bedroom because it is quiet."],
+["What is near your home?","نزدیک خانه‌تان چه چیزهایی هست؟","There is a park and a supermarket near my home."],
+["Do you like your city? Why or why not?","شهرت را دوست داری؟ چرا؟","Yes, I like my city because the people are kind."]]},
+{"id":"free","band":"A","t":"وقت آزاد","te":"Free time","w":["hobby","weekend","music","sport","movie","enjoy","football","song"],"q":[
+["What do you do in your free time?","در وقت آزادت چه کار می‌کنی؟","In my free time, I read books and listen to music."],
+["Do you play any sports?","ورزشی انجام می‌دهی؟","Yes, I play football with my friends on Fridays."],
+["What kind of music do you like?","چه نوع موسیقی دوست داری؟","I like pop music and old Persian songs."],
+["What is the last movie you watched?","آخرین فیلمی که دیدی چه بود؟","The last movie I watched was a funny cartoon."],
+["What do you like to do on the weekend?","آخر هفته دوست داری چه کار کنی؟","On the weekend, I like to go to the park with my family."]]},
+{"id":"past","band":"A","t":"آخر هفته‌ی گذشته","te":"Last weekend","w":["visit","village","weather","sunny","warm","together","game","grandmother"],"q":[
+["What did you do last weekend?","آخر هفته‌ی گذشته چه کار کردی؟","Last weekend I visited my grandparents."],
+["Where did you go?","کجا رفتی؟","We went to a small village near the city."],
+["Who were you with?","با چه کسی بودی؟","I was with my parents and my sister."],
+["What was the weather like?","هوا چطور بود؟","The weather was sunny and warm."],
+["Did you have a good time? Why?","خوش گذشت؟ چرا؟","Yes, I had a great time because we played games together."]]},
+{"id":"work","band":"B","t":"کار و درس","te":"Work and study","w":["colleague","salary","experience","skill","career","degree","meeting","company"],"q":[
+["What do you do for a living, or what are you studying?","شغلت چیست یا چه می‌خوانی؟","I'm an accountant, and I've been working at a small company for three years."],
+["What do you like most about your job or your studies?","چه چیزی را در کار یا درست بیشتر از همه دوست داری؟","I like that I learn something new every day."],
+["What is the hardest part of it?","سخت‌ترین بخشش چیست؟","The hardest part is the long meetings, which are often boring."],
+["If you could change one thing about your work, what would it be?","اگر می‌توانستی یک چیز را در کارت عوض کنی، چه بود؟","If I could change one thing, I would work from home two days a week."],
+["What job did you want to do when you were a child?","بچه که بودی دوست داشتی چه کاره شوی؟","When I was a child, I wanted to be a pilot."]]},
+{"id":"travel","band":"B","t":"سفر","te":"Travel","w":["trip","abroad","luggage","passport","flight","hotel","culture","comfortable"],"q":[
+["What is the best trip you have ever taken?","بهترین سفری که تا حالا رفته‌ای کدام بوده؟","The best trip I have ever taken was to Shiraz with my friends."],
+["Do you prefer traveling by plane, train or car? Why?","سفر با هواپیما را ترجیح می‌دهی یا قطار یا ماشین؟ چرا؟","I prefer traveling by train because it is comfortable and I can read."],
+["What do you always take with you when you travel?","موقع سفر همیشه چه چیزی با خودت می‌بری؟","I always take a good book and a phone charger."],
+["Which country would you like to visit, and why?","دوست داری به کدام کشور سفر کنی و چرا؟","I would like to visit Japan because I'm interested in its culture."],
+["Has anything bad ever happened to you on a trip?","تا حالا در سفر اتفاق بدی برایت افتاده؟","Yes, once the airline lost my luggage, so I had to buy new clothes."]]},
+{"id":"health","band":"B","t":"سلامتی و ورزش","te":"Health and exercise","w":["healthy","exercise","diet","stress","habit","relax","energy","gym"],"q":[
+["What do you do to stay healthy?","برای سالم ماندن چه کار می‌کنی؟","I try to walk every day and eat more vegetables."],
+["How many hours do you usually sleep? Is it enough?","معمولاً چند ساعت می‌خوابی؟ کافی است؟","I usually sleep six hours, which isn't enough for me."],
+["Have you ever tried to change a bad habit?","تا حالا سعی کرده‌ای یک عادت بد را کنار بگذاری؟","Yes, I have tried to drink less coffee, but it was difficult."],
+["What makes you stressed, and how do you relax?","چه چیزی به تو استرس می‌دهد و چطور آرام می‌شوی؟","Work makes me stressed, so I listen to music to relax."],
+["Do you think people today are healthier than in the past?","فکر می‌کنی مردم امروز سالم‌ترند یا مردم گذشته؟","I think they live longer, but they don't move as much as before."]]},
+{"id":"tech","band":"B","t":"فناوری","te":"Technology","w":["internet","app","online","device","screen","download","message","waste"],"q":[
+["How many hours a day do you spend on your phone?","روزی چند ساعت با گوشی‌ات هستی؟","I spend about four hours a day on my phone, which is too much."],
+["Which app do you use the most? What for?","کدام برنامه را بیشتر از همه استفاده می‌کنی؟ برای چه؟","I use a messaging app the most, to talk with my family."],
+["Do you think the internet has made our lives better?","فکر می‌کنی اینترنت زندگی ما را بهتر کرده؟","Yes, it has made learning easier, but it can waste a lot of time."],
+["Do you prefer reading on paper or on a screen?","خواندن روی کاغذ را ترجیح می‌دهی یا روی صفحه‌ی گوشی؟","I prefer reading on paper because my eyes get tired on a screen."],
+["What would you do without the internet for a week?","یک هفته بدون اینترنت چه کار می‌کردی؟","If I didn't have the internet for a week, I would read more and visit my friends."]]},
+{"id":"plans","band":"B","t":"برنامه‌ها و آرزوها","te":"Plans and dreams","w":["plan","goal","future","hope","achieve","dream","improve","business"],"q":[
+["What are you going to do this weekend?","این آخر هفته می‌خواهی چه کار کنی؟","I'm going to visit my cousin and see a movie."],
+["Why are you learning English?","چرا انگلیسی یاد می‌گیری؟","I'm learning English because I want to study abroad."],
+["Where do you think you will be in five years?","فکر می‌کنی پنج سال دیگر کجا باشی؟","In five years, I think I will have my own small business."],
+["If you had a lot of money, what would you do?","اگر خیلی پول داشتی چه کار می‌کردی؟","If I had a lot of money, I would travel around the world."],
+["What is one goal you want to achieve this year?","یک هدف که امسال می‌خواهی به آن برسی چیست؟","This year, I want to improve my English and read five books."]]},
+{"id":"exp","band":"B","t":"تجربه‌ها","te":"Experiences","w":["experience","brave","recently","memory","proud","challenge","nervous","childhood"],"q":[
+["Have you ever done something really brave?","تا حالا کار خیلی شجاعانه‌ای کرده‌ای؟","Yes, I once gave a speech in front of two hundred people."],
+["What is something new you have tried recently?","اخیراً چه چیز تازه‌ای را امتحان کرده‌ای؟","Recently I have started taking painting lessons."],
+["What is your best memory from childhood?","بهترین خاطره‌ی کودکی‌ات چیست؟","My best memory is the summers we spent at my grandmother's house."],
+["Tell me about a time you felt really proud.","از زمانی بگو که واقعاً به خودت افتخار کردی.","I felt really proud when I passed my driving test on the first try."],
+["What was the biggest challenge you have faced?","بزرگ‌ترین چالشی که با آن روبه‌رو شده‌ای چه بود؟","The biggest challenge was moving to a new city where I didn't know anyone."]]},
+{"id":"learn","band":"C","t":"آموزش و یادگیری زبان","te":"Education and learning languages","w":["fluent","motivation","effective","approach","exposure","flexible","distract","memorize"],"q":[
+["What do you think is the most effective way to learn a language?","به نظرت مؤثرترین راه یادگیری زبان چیست؟","I believe regular exposure, like listening to podcasts every day, works better than memorizing lists."],
+["Should schools focus more on practical skills than on exams?","آیا مدرسه‌ها باید به‌جای امتحان بیشتر روی مهارت‌های کاربردی تمرکز کنند؟","In my view, they should, because exams often reward memory rather than real understanding."],
+["How has technology changed the way people learn?","فناوری چطور روش یادگیری مردم را تغییر داده است؟","Technology has made learning far more flexible, although it has also made it easier to get distracted."],
+["What keeps you motivated when learning gets difficult?","وقتی یادگیری سخت می‌شود، چه چیزی انگیزه‌ات را حفظ می‌کند؟","What keeps me motivated is imagining the conversations I will be able to have."],
+["Is it possible to become fluent without living abroad?","آیا بدون زندگی در خارج می‌شود روان صحبت کرد؟","It is certainly possible, provided that you practice speaking regularly."]]},
+{"id":"env","band":"C","t":"محیط زیست","te":"The environment","w":["pollution","climate","reduce","waste","responsibility","reasonable","environment","individual"],"q":[
+["What do you think is the most serious environmental problem today?","به نظرت جدی‌ترین مشکل محیط زیست امروز چیست؟","I think air pollution is the most serious problem, especially in big cities."],
+["Whose responsibility is it to protect the environment: governments or individuals?","حفاظت از محیط زیست وظیفه‌ی کیست: دولت‌ها یا تک‌تک مردم؟","Both matter, but governments have far more power to change things through laws."],
+["What have you personally done to reduce waste?","خودت برای کم کردن زباله چه کرده‌ای؟","I have stopped buying bottled water and started carrying my own bottle."],
+["Would you pay more for products that are better for the environment?","حاضری برای محصولاتی که برای محیط زیست بهترند، پول بیشتری بدهی؟","I would, as long as the difference in price was reasonable."],
+["How might your city look in fifty years if nothing changes?","اگر چیزی عوض نشود، شهرت پنجاه سال دیگر چه شکلی خواهد بود؟","If nothing changes, it might be too hot and too crowded to live in comfortably."]]},
+{"id":"media","band":"C","t":"رسانه و خبر","te":"Media and news","w":["source","reliable","rumor","influence","responsibly","media","journalist","compare"],"q":[
+["Where do you usually get your news from?","معمولاً خبرها را از کجا می‌گیری؟","I mostly get my news from websites, although I try to check more than one source."],
+["How can people tell whether a news story is reliable?","مردم چطور می‌توانند بفهمند یک خبر قابل‌اعتماد است؟","They should check who wrote it and whether other reliable sources report the same thing."],
+["Do you think social media does more harm than good?","فکر می‌کنی ضرر شبکه‌های اجتماعی بیشتر از فایده‌شان است؟","It depends on how people use it; it connects us, but it can also spread rumors quickly."],
+["Should famous people be role models for young people?","آیا آدم‌های مشهور باید برای جوان‌ها الگو باشند؟","Whether they like it or not, they influence young people, so they should behave responsibly."],
+["How would your life be different without social media?","بدون شبکه‌های اجتماعی زندگی‌ات چه فرقی می‌کرد؟","I would probably read more books and spend less time comparing myself with others."]]},
+{"id":"success","band":"C","t":"موفقیت و زندگی کاری","te":"Success and working life","w":["success","balance","ambition","priority","pressure","satisfaction","advise","career"],"q":[
+["How would you define success?","موفقیت را چطور تعریف می‌کنی؟","For me, success means doing work I enjoy while having time for the people I love."],
+["Is it better to earn a lot or to enjoy your job?","بهتر است درآمد زیاد داشت یا از کار لذت برد؟","I would rather enjoy my job, as long as I earn enough to live comfortably."],
+["What do you think about working from home?","نظرت درباره‌ی دورکاری چیست؟","Working from home saves time, but it can make it harder to separate work from private life."],
+["Had you known what you know now, would you have chosen a different career?","اگر چیزی را که الان می‌دانی از قبل می‌دانستی، شغل دیگری انتخاب می‌کردی؟","Had I known how much I would enjoy teaching, I would have started much earlier."],
+["What advice would you give to someone starting their first job?","به کسی که اولین کارش را شروع می‌کند چه توصیه‌ای می‌کنی؟","I would advise them to ask questions and not to be afraid of making mistakes."]]},
+{"id":"culture","band":"C","t":"فرهنگ و سنت‌ها","te":"Culture and traditions","w":["tradition","custom","celebrate","generation","hospitable","value","globalization","gathering"],"q":[
+["Which tradition from your culture would you most like to keep?","دوست داری کدام سنتِ فرهنگ‌تان بیشتر از همه حفظ شود؟","I would most like to keep Nowruz, when families visit each other and start the year together."],
+["How are young people's values different from their parents'?","ارزش‌های جوان‌ها چه فرقی با ارزش‌های پدر و مادرشان دارد؟","Young people tend to value personal freedom more, whereas their parents often put the family first."],
+["What should a visitor to your country know before arriving?","یک مسافر پیش از آمدن به کشورت چه چیزهایی باید بداند؟","Visitors should know that people are very hospitable and will often invite them for tea."],
+["Is globalization making cultures more similar?","آیا جهانی‌شدن فرهنگ‌ها را شبیه‌تر می‌کند؟","To some extent it is, since people everywhere watch the same films and use the same apps."],
+["What would you miss most if you lived abroad?","اگر خارج زندگی می‌کردی، دلت بیشتر از همه برای چه تنگ می‌شد؟","I would miss the food and the long family gatherings most."]]}
+]}

@@ -1,0 +1,1 @@
+{"v":1,"pairs":{"enfa":{"model":{"f":"enfa/model.bin.gz","n":12882489},"lex":{"f":"enfa/lex.bin.gz","n":1660214},"vocab":{"f":"enfa/vocab.bin.gz","n":436107}},"faen":{"model":{"f":"faen/model.bin.gz","n":12895058},"lex":{"f":"faen/lex.bin.gz","n":1862608},"vocab":{"f":"faen/vocab.bin.gz","n":436103}}}}
