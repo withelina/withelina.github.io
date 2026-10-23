@@ -1,0 +1,17 @@
+/* © English with Elina. All rights reserved. */
+/* Invite-code gate: the app is hidden until the code is accepted. Uses the app's welcome-screen classes (ob-*). */
+html.gt-locked .app{visibility:hidden}
+.gt-ov{position:fixed;inset:0;z-index:1000;max-width:560px;margin:0 auto;background:var(--desk)}
+.gt-ov.gt-blank{animation:none}
+.gt-photo{height:250px}
+.gt-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 12%;display:block}
+.gt-tag{position:absolute;top:10px;inset-inline-start:10px;background:rgba(255,255,255,.9);color:#1b1b1b;font-size:.74rem;font-weight:700;border-radius:999px;padding:3px 10px}
+.gt-in{margin:18px 0 0;display:flex;flex-direction:column;gap:6px;flex:1}
+.gt-in label{font-weight:800;font-size:.92rem}
+.gt-in input{width:100%;border:1.5px solid var(--rule);background:var(--card);color:var(--ink);border-radius:14px;padding:14px;font-family:var(--en);font-size:1.3rem;letter-spacing:.2em;text-align:center;outline:none}
+.gt-in input::placeholder{color:var(--muted);letter-spacing:.2em}
+.gt-in input:focus{border-color:var(--us)}
+.gt-in.bad input{border-color:var(--bad);background:color-mix(in srgb,var(--bad) 7%,var(--card))}
+.gt-err{color:var(--bad);font-size:.86rem;font-weight:700;margin:2px 0 0;line-height:1.8}
+.gt-in .ob-big{margin-top:16px}
+.gt-help{text-align:center;color:var(--muted);font-size:.84rem;margin:12px 0 0}
