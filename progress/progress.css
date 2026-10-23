@@ -159,3 +159,17 @@
 @keyframes pgPop{0%{transform:scale(.4) rotate(-12deg);opacity:0}70%{transform:scale(1.1) rotate(3deg);opacity:1}100%{transform:none}}
 .pg-celm svg{width:110px;height:110px;animation:pgPop .6s ease-out}
 .pg-cel h3{margin:6px 0 4px}
+/* choosing a level instead of the test (the owner, 2026-10-23) */
+.pg-root .pg-lvpick{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;direction:ltr;margin:8px 0 6px}
+.pg-root .pg-lvpick button{border:1.5px solid var(--rule);background:var(--card);border-radius:12px;padding:10px 6px;display:flex;flex-direction:column;align-items:center;gap:2px;color:var(--ink);font:inherit}
+.pg-root .pg-lvpick b{font-family:var(--en);font-size:1.15rem}
+.pg-root .pg-lvpick small{color:var(--muted);font-size:.74rem;line-height:1.6;font-family:var(--fa)}
+.pg-root .pg-lvpick button[aria-pressed="true"]{border-color:var(--us);background:color-mix(in srgb,var(--us) 10%,var(--card))}
+.pg-root .pg-lvpick button:disabled{opacity:.4}
+.pg-root .pg-picks{margin:0 0 4px}
+/* the study plan's estimate (opts.pace) */
+.pg-root .pg-pace{display:block;color:var(--us);font-size:.8rem;line-height:1.8;margin-top:2px}
+.pg-root .pg-pacebox{margin:10px 2px 0;font-size:.86rem}
+.pg-root .pg-tw{color:var(--us);margin-inline-start:6px}
+.pg-root .pg-tw::before{content:"· ";color:var(--muted)}
+.pg-root .pg-tw.out{color:var(--muted)}
