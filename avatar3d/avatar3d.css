@@ -1,0 +1,17 @@
+/* © English with Elina. The 3D character views; they use the app's colours (--us, --good, --card, --rule, --muted). */
+.av3-cv{display:block;width:100%;height:300px}
+.av3-stage{position:relative;overflow:hidden;padding:0 14px 14px;background:radial-gradient(120% 70% at 50% 22%,color-mix(in srgb,var(--us) 15%,var(--card)) 0,var(--card) 64%)}
+.av3-stage>*{position:relative}
+.av3-stage .av3-floor{position:absolute;left:0;right:0;bottom:0;height:92px;background:color-mix(in srgb,var(--good) 12%,var(--card))}
+.av3-stage .av3-hint{position:absolute;z-index:2;top:12px;inset-inline-start:12px;display:inline-flex;align-items:center;gap:5px;font-size:.74rem;color:var(--muted);background:var(--card);border:1px solid var(--rule);border-radius:999px;padding:4px 10px;pointer-events:none}
+.av3-stage .av3-moods{position:absolute;z-index:2;top:12px;inset-inline-end:12px;display:flex;flex-direction:column;gap:6px}
+.av3-stage .av3-moods button{width:36px;height:36px;border-radius:50%;border:1px solid var(--rule);background:var(--card);display:grid;place-items:center;font-size:18px;padding:0;line-height:1;cursor:pointer}
+.av3-stage .av3-moods button:active{border-color:var(--us);box-shadow:0 0 0 2px color-mix(in srgb,var(--us) 25%,transparent)}
+.av3-stage .av-sex{margin-top:0}
+.av-mini.av3 img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
+.av3-sw{display:flex;gap:10px;flex-wrap:wrap;padding:10px 12px}
+.av3-sw button{width:34px;height:34px;border-radius:50%;padding:0;cursor:pointer;box-shadow:inset 0 -5px 8px rgba(0,0,0,.18),inset 0 4px 6px rgba(255,255,255,.35);border:2px solid var(--card);outline:1.5px solid var(--rule)}
+.av3-sw button[aria-checked="true"]{outline:2.5px solid var(--good)}
+.av3-new{font-size:.68rem;font-weight:800;color:#fff;background:var(--us);border-radius:6px;padding:1px 6px;margin-inline-start:6px;vertical-align:middle}
+.ga-figs.av3-on{display:block;padding:0}
+.ga-figs.av3-on .av3-names{display:flex;justify-content:space-between;padding:0 16% 6px}
