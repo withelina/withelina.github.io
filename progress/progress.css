@@ -173,3 +173,12 @@
 .pg-root .pg-tw{color:var(--us);margin-inline-start:6px}
 .pg-root .pg-tw::before{content:"· ";color:var(--muted)}
 .pg-root .pg-tw.out{color:var(--muted)}
+/* Elina's suggested plan when the plan does not reach 80% */
+.pg-root .pg-suggb{display:flex;align-items:center;justify-content:center;gap:6px;width:100%;margin-top:10px}
+.pg-root .pg-suggb svg{width:18px;height:18px}
+.pg-root .pg-sugg{margin-top:10px;padding:14px 16px}
+.pg-root .pg-sugg>b{display:block;font-size:1rem}
+.pg-root .pg-sugg small{display:block;color:var(--muted);font-size:.84rem;line-height:1.8;margin-top:4px}
+.pg-root .pg-sugg ul{margin:8px 0 4px;padding-inline-start:18px;line-height:2;font-size:.92rem}
+.pg-root .pg-sugg .pg-two{margin-top:10px}
+.pg-root .pg-suggb[hidden]{display:none}
