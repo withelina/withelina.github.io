@@ -1,0 +1,58 @@
+/* © English with Elina. All rights reserved. */
+/* «دفتر اشتباه‌ها»: only what the app's own classes don't cover; colours from the app's variables. */
+.mi-root small{display:block;color:var(--muted);font-size:.8rem;line-height:1.7}
+.mi-root .lic{display:inline-block;width:1.15em;height:1.15em;vertical-align:-.22em;flex:none}
+.mi-big{display:block;width:100%;border:0;background:var(--pri,var(--ink));color:var(--pri-ink,var(--card));border-radius:14px;padding:14px;font:inherit;font-weight:800;font-size:1.02rem;margin-top:12px;cursor:pointer}
+.mi-big.g{background:transparent;color:var(--ink);border:1.5px solid var(--rule)}
+.mi-big:disabled{opacity:.45;cursor:default}
+.mi-two{display:flex;gap:10px}.mi-two .mi-big{flex:1}
+.mi-head{display:flex;align-items:center;gap:12px;padding:14px 16px}
+.mi-head .n{flex:none;width:58px;height:58px;border-radius:16px;background:color-mix(in srgb,var(--bad) 12%,var(--card));color:var(--bad);display:grid;place-items:center;font-size:1.5rem;font-weight:800}
+.mi-head>div{flex:1;min-width:0}
+.mi-filt{display:flex;gap:6px;flex-wrap:wrap;margin:12px 0 8px}
+.mi-chip{border:1px solid var(--rule);border-radius:999px;padding:3px 12px;font:inherit;font-size:.84rem;background:transparent;color:var(--ink);cursor:pointer}
+.mi-chip.on{background:var(--chip-on);color:var(--chip-on-ink);border-color:transparent}
+.mi-list{padding:2px 0}
+.mi-it{display:grid;grid-template-columns:auto 1fr auto auto;grid-template-areas:"ic tx dots x";column-gap:10px;padding:12px 14px;border-top:1px solid var(--rule);align-items:start}
+.mi-it:first-child{border-top:0}
+.mi-it .ic{grid-area:ic;align-self:center;width:34px;height:34px;border-radius:10px;background:color-mix(in srgb,var(--us) 10%,var(--card));color:var(--us);display:grid;place-items:center}
+.mi-root .mi-it .ic .lic{width:20px;height:20px}
+.mi-it .tx{grid-area:tx;min-width:0}
+.mi-it>.mi-dots{grid-area:dots;margin-top:9px}
+.mi-it .mi-del+.ic{margin:0}
+.mi-it .en{text-align:start;font-size:1rem;line-height:1.6;overflow-wrap:anywhere}
+.mi-it .en[lang=en]{text-align:left;font-family:var(--en);font-size:1.04rem}
+.mi-it .en s,.mi-tip s{color:var(--bad);text-decoration-thickness:1.5px}
+.mi-it .en b{color:var(--good)}
+.mi-it .ipa{color:var(--muted);font-size:.9rem}
+.mi-it .fa{font-size:.9rem;line-height:1.7}
+.mi-dots{display:inline-flex;gap:3px;margin-top:6px;direction:ltr}
+.mi-dots i{width:8px;height:8px;border-radius:50%;background:var(--rule)}.mi-dots i.on{background:var(--good)}
+.mi-del{grid-area:x;margin-top:2px;margin-inline-start:4px;border:0;background:transparent;color:var(--muted);padding:2px;display:grid;place-items:center;cursor:pointer;opacity:.7}
+.mi-empty{text-align:center;padding:24px 18px}
+.mi-empty b{display:block;font-size:1.1rem;margin:8px 0 4px}
+.mi-ok{display:inline-grid;place-items:center;width:58px;height:58px;border-radius:50%;background:color-mix(in srgb,var(--good) 14%,var(--card));color:var(--good)}
+.mi-ok.big{width:84px;height:84px;color:#E8A11A;background:color-mix(in srgb,#E8B23A 16%,var(--card))}
+.mi-tagw{text-align:center;margin:0 0 10px}
+.mi-tag{display:inline-flex;align-items:center;gap:5px;border-radius:999px;background:color-mix(in srgb,var(--bad) 12%,var(--card));color:var(--bad);font-size:.78rem;font-weight:700;padding:3px 12px}
+.mi-q{text-align:center;padding:20px 16px 14px}
+.mi-q .icon-btn{margin:8px auto 0;color:var(--us)}
+.mi-q .icon-btn svg{width:16px;height:16px}
+.mi-en{font-family:var(--en);font-size:1.3rem;line-height:1.6;margin:0}
+.mi-ipa{font-family:var(--en);color:var(--muted);margin:2px 0 0}
+.mi-gap{display:inline-block;width:64px;border-bottom:2.5px solid var(--us);margin:0 4px;vertical-align:-2px}
+.mi-opts .qz-opt{margin:10px 0;color:var(--ink);font-family:inherit;cursor:pointer}
+.mi-opts .qz-opt .t[lang=en]{font-family:var(--en);font-weight:400;font-size:1.1rem}
+.mi-in{margin-top:12px;padding:10px}
+.mi-in textarea{width:100%;box-sizing:border-box;border:0;background:transparent;color:var(--ink);font-family:var(--en);font-size:1.1rem;resize:none;outline:none}
+.mi-tip{display:flex;gap:10px;align-items:flex-start;padding:12px 14px;line-height:1.8;font-size:.92rem;margin-top:12px}
+.mi-tip img{width:38px;height:38px;border-radius:50%;flex:none;object-fit:cover}
+.mi-tip>div{flex:1;min-width:0}
+.mi-tip.good b{color:var(--good)}.mi-tip.bad b{color:var(--bad)}
+.mi-ans{font-family:var(--en);font-size:1.08rem;margin:4px 0 0;text-align:left}
+.mi-fa{margin:4px 0 0}
+.mi-ex{margin:4px 0 0;color:var(--muted)}
+.mi-tip .mi-dots{display:flex;margin:6px 0 0}
+.mi-gone{color:var(--good);font-weight:700;margin:6px 0 0}
+.mi-hero{text-align:center;padding:24px 16px 18px}
+.mi-hero h3{margin:10px 0 4px;font-size:1.2rem}.mi-hero p{margin:0;color:var(--muted)}
