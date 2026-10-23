@@ -1,0 +1,94 @@
+/* © English with Elina. All rights reserved. */
+/* «کارنامه‌ی هفته»: full-screen stories. The colours are the stories' own, the same in light and dark mode. */
+.rp-ov{position:fixed;inset:0;z-index:90;background:#000;display:flex;justify-content:center;font-family:var(--fa,Vazirmatn,Tahoma,sans-serif);-webkit-user-select:none;user-select:none;touch-action:manipulation}
+.rp-st{position:relative;width:min(100vw,calc(100dvh * 9 / 16 + 1px));height:100dvh;overflow:hidden;color:#fff}
+@media (min-width:600px){.rp-st{border-radius:16px;height:calc(100dvh - 24px);margin-top:12px;width:calc((100dvh - 24px) * 9 / 16)}}
+.rp-st .lic{display:inline-block;width:1.1em;height:1.1em;vertical-align:-.2em;flex:none}
+.rp-segs{position:absolute;top:calc(10px + env(safe-area-inset-top,0px));left:12px;right:12px;display:flex;gap:4px;z-index:5}
+.rp-segs i{display:block;flex:1;height:3px;padding:0;margin:0;box-shadow:none;border-radius:3px;background:rgba(255,255,255,.35);overflow:hidden}
+.rp-segs i b{display:block;height:100%;width:0;background:#fff;border-radius:3px}
+.rp-segs i.rp-dn b{width:100%}
+@keyframes rpFill{from{width:0}to{width:100%}}
+.rp-segs i.rp-cu b{animation:rpFill linear forwards}
+.rp-segs.last i.rp-cu b{animation:none;width:100%}
+.rp-ov.paused .rp-segs i.rp-cu b{animation-play-state:paused}
+/* like Instagram: the profile on the left and × on the right, in every language */
+.rp-hd{direction:ltr;position:absolute;top:calc(22px + env(safe-area-inset-top,0px));right:14px;left:14px;display:flex;align-items:center;gap:8px;z-index:5;font-size:13px}
+.rp-hd img{width:30px;height:30px;border-radius:50%;object-fit:cover;border:2px solid #fff}
+.rp-hd b{font-weight:800}
+.rp-hd .rp-dt{opacity:.8}
+.rp-x{margin-inline-start:auto;border:0;background:transparent;color:#fff;padding:6px;display:grid;place-items:center;cursor:pointer}
+.rp-s{position:absolute;inset:0;display:none}
+.rp-s.on{display:block;animation:rpIn .35s ease-out}
+@keyframes rpIn{from{opacity:.4;transform:scale(1.02)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.rp-s.on{animation:none}}
+.rp-cf{position:absolute;inset:0;pointer-events:none}
+.rp-cf i{position:absolute;width:8px;height:14px;border-radius:2px;opacity:.9}
+.rp-c{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:70px 26px 40px}
+.rp-c.rp-top{justify-content:flex-start;padding-top:78px}
+.rp-c.rp-top5{padding-top:64px}
+.rp-small{font-size:15px;opacity:.88;line-height:1.9;margin:6px 0 0}
+.rp-big{font-size:118px;font-weight:900;line-height:1;letter-spacing:-2px}
+.rp-big3{font-size:96px;margin-top:4px}
+.rp-h{font-size:26px;font-weight:900;line-height:1.5;margin:6px 0}
+.rp-pill{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:6px 16px;font-weight:800;font-size:14px;background:rgba(255,255,255,.22);margin-top:12px}
+.rp-tap{position:absolute;bottom:calc(22px + env(safe-area-inset-bottom,0px));left:0;right:0;text-align:center;font-size:12px;opacity:.75}
+.rp-star{position:absolute;color:#FFE082}
+/* 1: hello */
+.rp-s1{background:radial-gradient(120% 80% at 80% 10%,#6C5CE7 0,#3A2C9C 40%,#14123F 100%)}
+.rp-av{width:150px;height:150px;border-radius:50%;object-fit:cover;border:5px solid #fff;box-shadow:0 0 0 10px rgba(255,255,255,.12),0 0 60px 20px rgba(255,190,90,.45)}
+.rp-bub{position:relative;margin-top:26px;background:#fff;color:#1B1B1B;border-radius:22px;padding:14px 18px;font-weight:800;font-size:19px;line-height:1.7;box-shadow:0 12px 30px rgba(0,0,0,.3)}
+.rp-bub:before{content:"";position:absolute;top:-10px;left:50%;margin-left:-10px;border:10px solid transparent;border-top:0;border-bottom-color:#fff}
+/* 2: words */
+.rp-s2{background:linear-gradient(165deg,#FF8A5B 0%,#FF5E7E 45%,#B33C9E 100%)}
+.rp-s2 .rp-big{background:linear-gradient(180deg,#fff,#FFE3D1);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 8px 18px rgba(120,0,60,.35))}
+.rp-chip{position:absolute;background:#fff;color:#B33C9E;font-family:var(--en,"Gentium Book Plus",serif);font-weight:700;font-size:17px;border-radius:12px;padding:5px 12px;box-shadow:0 8px 18px rgba(80,0,40,.25);direction:ltr;z-index:1}
+.rp-fav{position:absolute;left:26px;right:26px;bottom:calc(70px + env(safe-area-inset-bottom,0px));background:rgba(255,255,255,.95);color:#1B1B1B;border-radius:18px;padding:12px 18px}
+.rp-fav small{display:block;color:#666;font-size:12.5px;line-height:1.8}
+.rp-fav b{display:block;font-family:var(--en,"Gentium Book Plus",serif);font-size:28px;color:#D2386C;direction:ltr}
+/* 3: days in a row */
+.rp-s3{background:radial-gradient(90% 60% at 50% 32%,#FFB547 0%,#F0642E 45%,#5B1A12 100%)}
+.rp-st .rp-fl{width:140px;height:140px;color:#FFF3C4;filter:drop-shadow(0 0 24px rgba(255,230,120,.9))}
+.rp-rec{background:#FFE082;color:#7A2E00}
+.rp-days{display:flex;gap:7px;margin-top:18px}
+.rp-days div{width:40px;text-align:center;font-size:12px;opacity:.95}
+.rp-days span{display:grid;place-items:center;height:44px;border-radius:14px;background:rgba(255,255,255,.18);margin-top:4px}
+.rp-days span.on{background:#fff;color:#F0642E}
+.rp-st .rp-days span .lic{width:22px;height:22px}
+.rp-bars{display:flex;align-items:flex-end;gap:8px;height:90px;margin-top:20px;width:100%}
+.rp-bars div{flex:1;font-size:11px;opacity:.95}
+.rp-bars i{display:block;border-radius:8px 8px 3px 3px;background:rgba(255,255,255,.55);margin-bottom:4px}
+.rp-bars i.best{background:#fff;box-shadow:0 0 16px rgba(255,255,255,.8)}
+/* 4: the road */
+.rp-s4{background:linear-gradient(180deg,#8FD3F4 0%,#C9EBD8 55%,#9ED36A 100%);color:#1E2A44}
+.rp-s4 .rp-hd,.rp-s4 .rp-x{color:#1E2A44}
+.rp-dk{opacity:1}
+.rp-pct{font-size:64px;font-weight:900;color:#2E8B4E;line-height:1.1}
+.rp-road{width:100%;height:auto;max-height:36vh;margin-top:6px;direction:ltr}
+.rp-card{background:rgba(255,255,255,.9);border-radius:20px;padding:12px 16px;width:100%;margin-top:12px;display:flex;align-items:center;gap:12px;text-align:start;color:#1E2A44}
+.rp-card b{font-size:16px}.rp-card small{display:block;color:#5A6680;font-size:12.5px;line-height:1.8}
+.rp-lbar{height:8px;border-radius:9px;background:#E3EBE0;margin:6px 0 4px;overflow:hidden}
+.rp-lbar i{display:block;height:100%;background:linear-gradient(90deg,#4ECB8F,#2E8B4E)}
+[dir=rtl] .rp-lbar i{background:linear-gradient(270deg,#4ECB8F,#2E8B4E)}
+.rp-m{flex:none;width:48px;height:48px;border-radius:50%;background:#E8B23A;display:grid;place-items:center;color:#fff;box-shadow:0 0 0 4px #FFF3C4}
+.rp-st .rp-m .lic{width:26px;height:26px}
+/* 5: the card */
+.rp-s5{background:radial-gradient(110% 70% at 85% 0%,#4C7BF3 0%,#2B3FB8 40%,#141A4A 100%)}
+.rp-cardw{position:relative;width:100%;background:#fff;color:#1B1B1B;border-radius:26px;padding:20px 18px 16px;margin-top:8px;box-shadow:0 20px 50px rgba(0,0,0,.35);text-align:start}
+.rp-ct{display:flex;align-items:center;gap:12px}
+.rp-ct img{width:58px;height:58px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 3px #fff,0 0 0 6px #E8B23A}
+.rp-ct b{display:block;font-size:19px}.rp-ct small{color:#7A7A7A;font-size:12.5px}
+.rp-title{margin:14px 0 4px;font-size:24px;font-weight:900;background:linear-gradient(90deg,#FF5E7E,#6C5CE7);-webkit-background-clip:text;background-clip:text;color:transparent}
+[dir=rtl] .rp-title{background-image:linear-gradient(270deg,#FF5E7E,#6C5CE7)}
+.rp-g{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px}
+.rp-g div{border-radius:16px;padding:10px 12px;color:#fff}
+.rp-g b{display:block;font-size:30px;font-weight:900;line-height:1.15}
+.rp-g small{font-size:12px;opacity:.95}
+.rp-g .a{background:linear-gradient(140deg,#FF8A5B,#FF5E7E)}.rp-g .b{background:linear-gradient(140deg,#FFB547,#F0642E)}.rp-g .c{background:linear-gradient(140deg,#4ECB8F,#1F9A6A)}.rp-g .d{background:linear-gradient(140deg,#7C6CF0,#4B3BC9)}
+.rp-q{margin-top:12px;background:#F4F1FF;border-radius:14px;padding:10px 12px;font-size:13.5px;line-height:1.8;color:#3A2C9C}
+.rp-ft{display:flex;justify-content:space-between;align-items:center;margin-top:12px;font-size:12px;color:#7A7A7A;min-height:1.6em}
+.rp-ft b{color:#2F6BC9;font-size:13px}
+.rp-btns{display:flex;gap:10px;width:100%;margin-top:16px}
+.rp-btns button{flex:1;border:0;border-radius:16px;padding:13px;font:inherit;font-weight:800;font-size:15px;cursor:pointer}
+.rp-btns .rp-p{background:#fff;color:#2B3FB8}
+.rp-btns .rp-sv{background:rgba(255,255,255,.16);color:#fff}
