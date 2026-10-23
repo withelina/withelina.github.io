@@ -1,0 +1,82 @@
+/* © English with Elina. All rights reserved. */
+/* «گفتار پیوسته»: only what the app's own classes don't already cover. Colours come from the app's variables,
+   so light and dark mode follow the app. */
+.cs-root .cs-big{display:flex;flex-wrap:wrap;justify-content:center;align-items:baseline;gap:4px 10px}
+.cs-root .cs-big i{font-style:normal;color:var(--muted);font-size:1.3rem;font-weight:400}
+.cs-root .cs-big b{color:var(--us)}
+.cs-root .cs-lk{color:var(--us);font-weight:700;margin:0 -.04em}
+.cs-root .cs-hint{color:var(--muted);font-size:.8rem;margin:0;text-align:center}
+.cs-root .cs-us{text-align:center;margin:2px 0 0}
+.cs-root .cs-us span{display:inline-block;border:1px solid var(--rule);border-radius:999px;padding:0 10px;font-size:.76rem;color:var(--muted)}
+
+.cs-root .cs-cmp{padding:2px 0}
+.cs-root .cs-r{display:flex;align-items:center;gap:10px;padding:10px 14px;border-top:1px solid var(--rule)}
+.cs-root .cs-r:first-child{border-top:0}
+.cs-root .cs-r .icon-btn{width:32px;height:32px}
+.cs-root .cs-lb{flex:none;max-width:38%;font-size:.8rem;color:var(--muted);line-height:1.5}
+.cs-root .cs-en{flex:1;min-width:0;font-family:var(--en);font-size:1.12rem;line-height:1.45;text-align:left;overflow-wrap:anywhere}
+.cs-root .cs-en b{color:var(--us)}
+
+.cs-root .cs-speed{margin:0 0 8px}
+.cs-root .cs-exs .df-ex .e span b,.cs-root .cs-real .df-ex .e span b{color:var(--us)}
+.cs-root .cs-heard{margin:3px 0 0;font-size:.84rem;color:var(--us);line-height:1.7}
+.cs-root .cs-heard bdi{font-family:var(--en);font-size:.98rem}
+.cs-root .cs-rhint{margin:0 2px 6px;color:var(--muted);font-size:.8rem;text-align:center}
+.cs-root .cs-src{display:flex;align-items:center;gap:6px}
+.cs-root .cs-src bdi{flex:1;min-width:0;text-align:right}
+.cs-root .cs-src .tag{flex:none;border:1px solid var(--rule);border-radius:999px;padding:0 8px;font-size:.7rem}
+
+.cs-root .cs-note{display:flex;gap:10px;align-items:flex-start;padding:11px 14px;margin-top:10px;font-size:.9rem;line-height:1.95}
+.cs-root .cs-note>div{flex:1;min-width:0;text-align:start}
+.cs-root .cs-note .cs-nt{display:block;text-align:right}
+.cs-root .cs-note .cs-nl{display:block;font-size:.8rem;color:var(--muted)}
+.cs-root .cs-note .gm-en{color:var(--ink)}
+.cs-root .cs-note .ic{font-size:1.1rem;line-height:1.7}
+.cs-root .cs-no{background:color-mix(in srgb,var(--bad) 7%,var(--card));border-color:color-mix(in srgb,var(--bad) 22%,var(--rule))}
+.cs-root .cs-write,.cs-root .cs-tip{background:color-mix(in srgb,#D9902F 8%,var(--card));border-color:color-mix(in srgb,#D9902F 22%,var(--rule))}
+
+.cs-root .cs-acts{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}
+.cs-root .cs-acts.one{grid-template-columns:1fr}
+.cs-root .cs-acts button{border:0;border-radius:12px;padding:13px 8px;font:inherit;font-weight:700;background:var(--pri,var(--ink));color:var(--pri-ink,#fff)}
+.cs-root .cs-acts button.g{background:var(--card);color:var(--ink);border:1px solid var(--rule)}
+.cs-root .cs-pg{display:flex;justify-content:space-between;margin:14px 0 4px}
+.cs-root .cs-pg button{display:inline-flex;align-items:center;gap:4px;border:0;background:transparent;color:var(--muted);font:inherit;font-size:.9rem;padding:6px 2px}
+.cs-root .cs-pg svg{width:18px;height:18px}
+.cs-root .cs-pg svg.nx{transform:scaleX(-1)}
+[dir=ltr] .cs-root .cs-pg svg{transform:scaleX(-1)}
+[dir=ltr] .cs-root .cs-pg svg.nx{transform:none}
+
+.cs-root .cs-qc .ls-chips{align-items:center}
+.cs-root .cs-realtag{font-size:.8rem;color:var(--muted)}
+.cs-root .cs-stress{font-size:1.35rem;margin:6px 0 2px}
+.cs-root .cs-stress b{color:var(--us);text-transform:uppercase}
+.cs-root .cs-in{padding:0;margin-top:12px;overflow:hidden}
+.cs-root .cs-in textarea{display:block;width:100%;box-sizing:border-box;border:0;background:transparent;color:var(--ink);font-family:var(--en);font-size:1.15rem;line-height:1.5;padding:12px 14px;resize:none;outline:none;text-align:left}
+.cs-root .cs-in:focus-within{border-color:var(--us)}
+.cs-root .cs-in textarea:disabled{color:var(--muted)}
+.cs-root .cs-nums{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:12px 0 0}
+.cs-root .cs-nums .qz-opt{justify-content:center;background:var(--card);font-size:1.4rem;font-weight:800;padding:14px 0}
+.cs-root .cq-g.cs-g1{grid-template-columns:1fr}
+
+.cs-root .cs-res{margin-top:12px}
+.cs-root .cs-ans{padding:12px 16px}
+.cs-root .cs-sc{display:flex;justify-content:space-between;align-items:center;font-size:.84rem;color:var(--muted);margin-bottom:4px}
+.cs-root .cs-sc b.good{color:var(--good)} .cs-root .cs-sc b.mid{color:var(--us)} .cs-root .cs-sc b.bad{color:var(--bad)}
+.cs-root .cs-ans .sk-sent{text-align:left}
+.cs-root .cs-x{margin:6px 0 0;font-size:.84rem;color:var(--bad)}
+.cs-root .cs-x bdi{font-family:var(--en);text-decoration:line-through}
+.cs-root .cs-why{margin:8px 0 0;font-size:.9rem;line-height:1.9}
+.cs-root .cs-ans .f{color:var(--muted);font-size:.86rem;margin:4px 0 0}
+.cs-root .cs-cw{display:flex;flex-wrap:wrap;gap:6px 10px;justify-content:flex-start}
+.cs-root .cs-cw span{display:inline-flex;flex-direction:column;align-items:center;line-height:1.2}
+.cs-root .cs-cw i{font-style:normal;font-family:var(--fa);font-size:.7rem;color:var(--us)}
+
+.cs-root .cs-sum{text-align:center}
+.cs-root .cs-sk .cs-heard,.cs-root .cs-skfa{text-align:right}
+.cs-root .cs-skfa{color:var(--muted);font-size:.86rem;margin:2px 0 0}
+.cs-root .cs-skc{margin-top:8px;font-size:1.1rem}
+.cs-root .cs-skres{margin-top:12px}
+.cs-root .cs-try{margin-top:10px}
+.cs-root .cs-none{color:var(--muted);text-align:center;padding:16px;margin:0}
+.cs-root .cs-msg{margin:10px 0 0;padding:8px 12px;border-radius:10px;background:var(--chip);color:var(--ink);font-size:.86rem;text-align:center}
+.cs-media{position:fixed;width:1px;height:1px;opacity:0;pointer-events:none;bottom:0;left:0}
