@@ -4,7 +4,7 @@
    (the translator keeps its own cache, vazhedan-mt-1). */
 var CACHE = "vazhedan-app-1";
 var WAIT = 4000;
-var CORE = ["./", "index.html", "fonts/fonts.css", "manifest.webmanifest", "icons/icon-192.png", "avatar3d/avatar3d.js", "avatar3d/avatar3d.css"];
+var CORE = ["./", "index.html", "fonts/fonts.css", "manifest.webmanifest", "icons/icon-192.png", "avatar3d/avatar3d.js", "avatar3d/avatar3d.css", "dict/more.js"];
 
 self.addEventListener("install", function (e) {
   e.waitUntil(caches.open(CACHE).then(function (c) { return c.addAll(CORE); }).then(function () { return self.skipWaiting(); }));
